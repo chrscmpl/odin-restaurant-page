@@ -7,8 +7,8 @@
 .header {
 	display: grid;
 	grid-template:
-		"name name name" 2fr
-		"home menu contact" 1fr
+		'name name name' 2fr
+		'home menu contact' 1fr
 		/ 1fr 1fr 1fr;
 }
 

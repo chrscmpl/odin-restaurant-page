@@ -1,9 +1,9 @@
-import "./base.css";
-import Header from "./header/header";
-import Wrapper from "./wrapper/wrapper";
-import Home from "./home/home";
-import Menu from "./menu/menu";
-import Contact from "./contact/contact";
+import './base.css';
+import Header from './header/header';
+import Wrapper from './wrapper/wrapper';
+import Home from './home/home';
+import Menu from './menu/menu';
+import Contact from './contact/contact';
 
 function replaceFirstChild(parent, child) {
 	if (child === parent.firstChild) return;
@@ -11,10 +11,10 @@ function replaceFirstChild(parent, child) {
 	parent.insertBefore(child, parent.firstChild);
 }
 
-document.querySelector(":root").setAttribute("lang", "en");
+document.querySelector(':root').setAttribute('lang', 'en');
 
-const content = document.createElement("div");
-content.id = "content";
+const content = document.createElement('div');
+content.id = 'content';
 
 const header = Header();
 content.appendChild(header);
@@ -30,12 +30,12 @@ wrapper.appendChild(home);
 
 document.body.appendChild(content);
 
-document.getElementById("home-button").addEventListener("click", () => {
+document.getElementById('home-button').addEventListener('click', () => {
 	replaceFirstChild(wrapper, home);
 });
-document.getElementById("menu-button").addEventListener("click", () => {
+document.getElementById('menu-button').addEventListener('click', () => {
 	replaceFirstChild(wrapper, menu);
 });
-document.getElementById("contact-button").addEventListener("click", () => {
+document.getElementById('contact-button').addEventListener('click', () => {
 	replaceFirstChild(wrapper, contact);
 });
