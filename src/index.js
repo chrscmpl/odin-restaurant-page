@@ -1,14 +1,20 @@
-import './base.css';
-import Header from './header/header';
-import Wrapper from './wrapper/wrapper';
-import Home from './home/home';
-import Menu from './menu/menu';
-import Contact from './contact/contact';
+import "./base.css";
+import Header from "./header/header";
+import Wrapper from "./wrapper/wrapper";
+import Home from "./home/home";
+import Menu from "./menu/menu";
+import Contact from "./contact/contact";
 
-document.querySelector(':root').setAttribute('lang', 'en');
+function replaceFirstChild(parent, child) {
+	if (child === parent.firstChild) return;
+	parent.removeChild(parent.firstChild);
+	parent.insertBefore(child, parent.firstChild);
+}
 
-const content = document.createElement('div');
-content.id = 'content';
+document.querySelector(":root").setAttribute("lang", "en");
+
+const content = document.createElement("div");
+content.id = "content";
 
 const header = Header();
 content.appendChild(header);
@@ -20,21 +26,16 @@ const home = Home();
 const menu = Menu();
 const contact = Contact();
 
-append(wrapper, home);
+wrapper.appendChild(home);
 
 document.body.appendChild(content);
 
-document.getElementById('home-button').addEventListener('click', () => {
-	append(wrapper, home);
+document.getElementById("home-button").addEventListener("click", () => {
+	replaceFirstChild(wrapper, home);
 });
-document.getElementById('menu-button').addEventListener('click', () => {
-	append(wrapper, menu);
+document.getElementById("menu-button").addEventListener("click", () => {
+	replaceFirstChild(wrapper, menu);
 });
-document.getElementById('contact-button').addEventListener('click', () => {
-	append(wrapper, contact);
+document.getElementById("contact-button").addEventListener("click", () => {
+	replaceFirstChild(wrapper, contact);
 });
-
-function append(parent, child) {
-	for (const child of parent.children) child.remove();
-	parent.appendChild(child);
-}
