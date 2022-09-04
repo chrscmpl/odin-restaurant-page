@@ -1,0 +1,29 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.header {
+	display: grid;
+	grid-template:
+		'name name name' 2fr
+		'home menu contact' 1fr
+		/ 1fr 1fr 1fr;
+}
+
+.restaurant-name {
+	grid-area: name;
+}
+
+#home-button {
+	grid-area: home;
+}
+
+#menu-button {
+	grid-area: menu;
+}
+
+#contact-button {
+	grid-area: contact;
+}
