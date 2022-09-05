@@ -1,0 +1,21 @@
+#home-button {
+	grid-area: home;
+}
+
+#menu-button {
+	grid-area: menu;
+}
+
+#contact-button {
+	grid-area: contact;
+}
+
+.tab-button {
+	background: none;
+	border: none;
+	color: var(--text-clr);
+}
+
+.clicked {
+	border-bottom: 2px solid var(--clicked-clr);
+}

@@ -14,15 +14,3 @@
 	background: var(--nav-clr);
 	color: var(--text-clr);
 }
-
-#home-button {
-	grid-area: home;
-}
-
-#menu-button {
-	grid-area: menu;
-}
-
-#contact-button {
-	grid-area: contact;
-}

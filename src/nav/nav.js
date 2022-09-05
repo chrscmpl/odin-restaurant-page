@@ -1,5 +1,5 @@
 import './nav.css';
-import button from './button';
+import button from './button/button';
 
 export default function Nav() {
 	const nav = document.createElement('nav');
