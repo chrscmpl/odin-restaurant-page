@@ -11,4 +11,5 @@
 	width: min(700px, 80vw);
 
 	background-color: var(--wrapper-clr);
+	color: var(--text-clr);
 }

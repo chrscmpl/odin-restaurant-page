@@ -11,4 +11,5 @@
 	align-items: center;
 
 	background: var(--header-clr);
+	color: var(--text-clr);
 }

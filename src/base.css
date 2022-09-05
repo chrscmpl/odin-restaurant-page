@@ -1,8 +1,10 @@
 :root {
-	--bg-clr: #ffffff;
-	--header-clr: #7f1d1d;
+	--bg-clr: #ffffff88;
+	--header-clr: #ffffff88;
 	--nav-clr: var(--header-clr);
-	--wrapper-clr: #292524;
+	--wrapper-clr: #ffffff88;
+
+	--text-clr: #18181b;
 }
 
 * {
@@ -22,7 +24,9 @@ body {
 	min-height: 100vh;
 	display: grid;
 	grid-template:
-		'header' 2fr
-		'nav' 1fr
-		'content' 8fr;
+		'header' 200px
+		'nav' min-content
+		'content' 1fr;
+
+	background: url(./pizza.jpg) center/cover;
 }
