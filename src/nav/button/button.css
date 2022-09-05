@@ -14,8 +14,11 @@
 	background: none;
 	border: none;
 	color: var(--text-clr);
+	font-size: var(--fs-md);
+	text-align: center;
+	border-bottom: 2px solid transparent;
 }
 
-.clicked {
+.tab-button.clicked {
 	border-bottom: 2px solid var(--clicked-clr);
 }

@@ -13,3 +13,7 @@
 	background: var(--header-clr);
 	color: var(--text-clr);
 }
+
+.header > h1 {
+	font-size: var(--fs-bg);
+}

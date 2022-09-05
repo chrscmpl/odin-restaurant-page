@@ -7,9 +7,10 @@
 .nav {
 	grid-area: nav;
 	display: grid;
-	grid-template: 'home menu contact' 1fr / 60px 60px 60px;
+	grid-template-areas: 'home menu contact';
+	grid-template-columns: repeat(3, min(150px, 30%));
 	justify-content: center;
-	gap: 30px;
+	gap: 80px;
 
 	background: var(--nav-clr);
 	color: var(--text-clr);

@@ -1,0 +1,12 @@
+{
+	"Pizzas": [
+		{
+			"name": "Margherita",
+			"description": "The classical Neapolitan pizza"
+		},
+		{
+			"name": "Mimosa",
+			"description": "I like it"
+		}
+	]
+}
