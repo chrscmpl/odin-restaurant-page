@@ -976,7 +976,7 @@ function Wrapper() {
   \***********************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-module.exports = __webpack_require__.p + "0016df88b0987710ab83.jpg";
+module.exports = __webpack_require__.p + "images/0016df88b0987710ab83.jpg";
 
 /***/ })
 
