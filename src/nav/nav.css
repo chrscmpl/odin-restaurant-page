@@ -1,0 +1,16 @@
+.nav {
+	display: grid;
+	grid-template: 'home menu contact' 1fr / 1fr 1fr 1fr;
+}
+
+#home-button {
+	grid-area: home;
+}
+
+#menu-button {
+	grid-area: menu;
+}
+
+#contact-button {
+	grid-area: contact;
+}

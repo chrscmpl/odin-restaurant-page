@@ -1,4 +1,3 @@
-import button from './button';
 import './header.css';
 
 export default function Header() {
@@ -10,8 +9,5 @@ export default function Header() {
 	restaurantName.textContent = 'Pizzeria';
 
 	header.appendChild(restaurantName);
-	header.appendChild(button('Home', 'home'));
-	header.appendChild(button('Menu', 'menu'));
-	header.appendChild(button('Contact', 'contact'));
 	return header;
 }

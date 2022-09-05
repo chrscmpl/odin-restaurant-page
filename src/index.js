@@ -1,5 +1,6 @@
 import './base.css';
 import Header from './header/header';
+import Nav from './nav/nav';
 import Wrapper from './wrapper/wrapper';
 import Home from './home/home';
 import Menu from './menu/menu';
@@ -18,6 +19,9 @@ content.id = 'content';
 
 const header = Header();
 content.appendChild(header);
+
+const nav = Nav();
+content.appendChild(nav);
 
 const wrapper = Wrapper();
 content.appendChild(wrapper);
