@@ -5,5 +5,10 @@
 }
 
 .header {
+	grid-area: header;
 	display: grid;
+	justify-items: center;
+	align-items: center;
+
+	background: var(--header-clr);
 }

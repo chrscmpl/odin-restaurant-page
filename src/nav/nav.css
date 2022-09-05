@@ -1,6 +1,17 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
 .nav {
+	grid-area: nav;
 	display: grid;
-	grid-template: 'home menu contact' 1fr / 1fr 1fr 1fr;
+	grid-template: 'home menu contact' 1fr / 60px 60px 60px;
+	justify-content: center;
+	gap: 30px;
+
+	background: var(--nav-clr);
 }
 
 #home-button {

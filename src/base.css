@@ -1,5 +1,8 @@
 :root {
-	--bg-clr: rgb(255, 255, 255);
+	--bg-clr: #ffffff;
+	--header-clr: #7f1d1d;
+	--nav-clr: var(--header-clr);
+	--wrapper-clr: #292524;
 }
 
 * {
@@ -12,4 +15,14 @@ body {
 	width: 100vw;
 	min-height: 100vh;
 	background-color: var(--bg-clr);
+}
+
+#content {
+	width: 100vw;
+	min-height: 100vh;
+	display: grid;
+	grid-template:
+		'header' 2fr
+		'nav' 1fr
+		'content' 8fr;
 }
