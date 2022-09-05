@@ -8,13 +8,13 @@ module.exports = merge(common, {
 	module: {
 		rules: [
 			{
-				test: /.s?css$/,
+				test: /.css$/,
 				use: [MiniCssExtractPlugin.loader, 'css-loader'],
 			},
 		],
 	},
 	optimization: {
-		minimizer: [new CssMinimizerPlugin()],
+		minimizer: [new CssMinimizerPlugin(), '...'],
 	},
 	plugins: [new MiniCssExtractPlugin()],
 });
