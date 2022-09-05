@@ -1,0 +1,26 @@
+{
+	"sections": [
+		{
+			"name": "Pizzas",
+			"items": [
+				{
+					"name": "Margherita",
+					"description": "The classical Neapolitan pizza"
+				},
+				{
+					"name": "Mimosa",
+					"description": "I like it"
+				}
+			]
+		},
+		{
+			"name": "Primi",
+			"items": [
+				{
+					"name": "Carbonara",
+					"description": "De Roma"
+				}
+			]
+		}
+	]
+}
