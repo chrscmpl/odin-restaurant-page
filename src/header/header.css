@@ -15,5 +15,5 @@
 }
 
 .header > h1 {
-	font-size: var(--fs-bg);
+	font-size: var(--fs-1);
 }

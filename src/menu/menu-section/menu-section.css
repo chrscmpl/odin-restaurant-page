@@ -4,6 +4,12 @@
 	box-sizing: border-box;
 }
 
+.menu-section {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
+}
+
 .section-heading {
 	grid-area: 1 / 1 / 1 /-1;
+	font-size: var(--fs-2);
 }

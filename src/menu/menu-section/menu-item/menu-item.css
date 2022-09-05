@@ -3,3 +3,18 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+
+.menu-item {
+	display: grid;
+}
+
+.menu-item-img {
+	height: 200px;
+	aspect-ratio: 4/3;
+
+	border: 2px solid var(--acc-clr);
+}
+
+.menu-item-name {
+	font-size: var(--fs-3);
+}

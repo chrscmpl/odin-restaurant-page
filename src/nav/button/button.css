@@ -14,7 +14,7 @@
 	background: none;
 	border: none;
 	color: var(--text-clr);
-	font-size: var(--fs-md);
+	font-size: var(--fs-3);
 	text-align: center;
 	border-bottom: 2px solid transparent;
 }
