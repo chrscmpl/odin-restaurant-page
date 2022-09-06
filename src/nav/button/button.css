@@ -16,6 +16,7 @@
 	color: var(--text-clr);
 	font-size: var(--fs-3);
 	font-family: var(--ff);
+	font-weight: var(--fw);
 	text-align: center;
 	border-bottom: 2px solid transparent;
 }

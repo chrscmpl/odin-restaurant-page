@@ -10,6 +10,10 @@
 	justify-items: center;
 }
 
+.home-heading {
+	font-weight: var(--fw);
+}
+
 .home-img {
 	width: 80%;
 	border: 3px solid var(--acc-clr);

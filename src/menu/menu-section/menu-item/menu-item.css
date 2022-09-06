@@ -7,7 +7,9 @@
 .menu-item {
 	display: grid;
 	background-color: var(--wrapper-clr);
+	border: 2px solid var(--acc-clr);
 	padding: 10px;
+	gap: 20px;
 }
 
 .menu-item-img {
@@ -19,8 +21,10 @@
 .menu-item-name {
 	font-size: var(--fs-3);
 	font-family: var(--ff-h);
+	font-weight: var(--fw);
 }
 
 .menu-item-description {
 	font-size: var(--fs-p);
+	font-weight: var(--fw);
 }
