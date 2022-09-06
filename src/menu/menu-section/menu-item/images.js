@@ -1,5 +1,7 @@
 import margherita from './images/margherita.jpg';
+import marinara from './images/marinara.jpg';
 import mimosa from './images/mimosa.jpg';
+import quattroFormaggi from './images/quattro-formaggi.jpg';
 
 const Gallery = {
 	getImgPath(name) {
@@ -8,7 +10,9 @@ const Gallery = {
 	},
 	images: [
 		{ name: 'margherita', path: margherita },
+		{ name: 'marinara', path: marinara },
 		{ name: 'mimosa', path: mimosa },
+		{ name: 'quattro formaggi', path: quattroFormaggi },
 	],
 };
 

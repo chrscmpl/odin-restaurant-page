@@ -41,6 +41,11 @@ body {
 	background: url(./background.jpg) fixed center/cover;
 }
 
+::selection {
+	background-color: var(--text-clr);
+	color: var(--bg-clr);
+}
+
 ::-webkit-scrollbar {
 	width: 5px;
 }

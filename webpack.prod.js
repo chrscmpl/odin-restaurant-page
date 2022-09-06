@@ -16,7 +16,21 @@ module.exports = merge(common, {
 	},
 	optimization: {
 		minimizer: [
+			'...',
 			new CssMinimizerPlugin(),
+			new ImageMinimizerPlugin({
+				minimizer: {
+					implementation: ImageMinimizerPlugin.squooshMinify,
+					options: {
+						encodeOptions: {
+							mozjpeg: {
+								quality: 100,
+							},
+						},
+					},
+					filter: source => source.byteLength < 200000,
+				},
+			}),
 			new ImageMinimizerPlugin({
 				minimizer: {
 					implementation: ImageMinimizerPlugin.squooshMinify,
@@ -43,7 +57,6 @@ module.exports = merge(common, {
 					filter: source => source.byteLength >= 1000000,
 				},
 			}),
-			'...',
 		],
 	},
 	plugins: [new MiniCssExtractPlugin()],

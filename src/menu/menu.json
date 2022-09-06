@@ -1,33 +1,73 @@
 {
 	"sections": [
 		{
-			"name": "Pizzas",
+			"name": "Pizze",
 			"items": [
 				{
 					"name": "Margherita",
-					"description": "The classical Neapolitan pizza"
+					"description": "Fior di latte, tomato sauce, and basil"
+				},
+				{
+					"name": "Marinara",
+					"description": "Pecorino romano, tomatoes, black pepper, oregano and garlic"
 				},
 				{
 					"name": "Mimosa",
-					"description": "I like it"
+					"description": "Fior di latte, ham, corn, cream and basil"
+				},
+				{
+					"name": "Quattro Formaggi",
+					"description": "Provola, 4 cheese cream and basil"
+				},
+				{
+					"name": "Diavola",
+					"description": "Fior di latte, tomato sauce, spicy salami, spicy oil, and basil"
+				},
+				{
+					"name": "Salsiccia e Friarielli",
+					"description": "Provola, friarielli, sausage and basil"
+				},
+				{
+					"name": "Quattro Stagioni",
+					"description": "Fior di latte, tomato sauce, anchovies, olives, ham and mushrooms"
+				},
+				{
+					"name": "Würstel e Patatine",
+					"description": "Fior di latte, hot dog, fries and basil"
 				}
 			]
 		},
 		{
-			"name": "Primi",
+			"name": "Primi piatti",
 			"items": [
 				{
 					"name": "Carbonara",
-					"description": "De Roma"
+					"description": "Pecorino romano, bacon, black pepper, eggs"
+				},
+				{
+					"name": "Amatriciana",
+					"description": "Pecorino romano, bacon, black pepper, tomatoes, olive oil, chili pepper"
+				},
+				{
+					"name": "Bolognese",
+					"description": "Onion, bacon, minced meat, white wine, olive oil, black pepper, tomato sauce"
 				}
 			]
 		},
 		{
-			"name": "Secondi",
+			"name": "Secondi piatti",
 			"items": [
 				{
-					"name": "Spezzatino",
-					"description": "si"
+					"name": "Parmigiana di Melanzane",
+					"description": "Eggplant, tomatoes, olive oil, mozzarella, parmesan cheese, ham, basil"
+				},
+				{
+					"name": "Peperoni Ripieni",
+					"description": "Peppers, veal, bread, provolone, eggs, parmesan cheese, parsley, black pepper"
+				},
+				{
+					"name": "Cotoletta e Patatine",
+					"description": "Fries, chicken breasts, bread crumbs, parmesan cheese, eggs"
 				}
 			]
 		}
