@@ -1,12 +1,12 @@
 import './menu-item.css';
-import gallery from './images';
+import getImgPath from './images';
 
 export default function MenuItem(item) {
 	const menuItem = document.createElement('div');
 
 	const img = document.createElement('img');
 	img.classList.add('menu-item-img');
-	img.src = gallery.getImgPath(item.name);
+	img.src = getImgPath(item.name);
 	img.alt = item.name;
 	menuItem.appendChild(img);
 

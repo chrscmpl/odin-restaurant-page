@@ -6,11 +6,11 @@
 
 .menu-item {
 	display: grid;
-	width: 270px;
 }
 
 .menu-item-img {
 	width: 100%;
+	aspect-ratio: 4/3;
 	border: 2px solid var(--acc-clr);
 }
 
