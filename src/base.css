@@ -38,7 +38,7 @@ body {
 		'nav' min-content
 		'content' 1fr;
 
-	background: url(./pizza.jpg) fixed center/cover;
+	background: url(./background.jpg) fixed center/cover;
 }
 
 ::-webkit-scrollbar {

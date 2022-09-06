@@ -27,6 +27,20 @@ module.exports = merge(common, {
 							},
 						},
 					},
+					filter: source => source.byteLength < 1000000,
+				},
+			}),
+			new ImageMinimizerPlugin({
+				minimizer: {
+					implementation: ImageMinimizerPlugin.squooshMinify,
+					options: {
+						encodeOptions: {
+							mozjpeg: {
+								quality: 20,
+							},
+						},
+					},
+					filter: source => source.byteLength >= 1000000,
 				},
 			}),
 			'...',

@@ -1,0 +1,16 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.home {
+	display: grid;
+	gap: 30px;
+	justify-items: center;
+}
+
+.home-img {
+	width: 80%;
+	border: 3px solid var(--acc-clr);
+}
