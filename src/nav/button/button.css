@@ -24,3 +24,9 @@
 .tab-button.clicked {
 	border-bottom: 2px solid var(--acc2-clr);
 }
+
+@media (max-width: 600px) {
+	.tab-button {
+		font-size: var(--fs-p);
+	}
+}

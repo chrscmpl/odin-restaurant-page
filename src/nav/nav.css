@@ -10,8 +10,14 @@
 	grid-template-areas: 'home menu contact';
 	grid-template-columns: repeat(3, min(150px, 30%));
 	justify-content: center;
-	gap: 80px;
+	gap: min(80px, 10%);
 
 	background: var(--nav-clr);
 	color: var(--text-clr);
+}
+
+@media (max-width: 600px) {
+	.nav {
+		gap: 5px;
+	}
 }
