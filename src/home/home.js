@@ -7,7 +7,8 @@ export default function Homepage() {
 
 	const heading = document.createElement('h2');
 	heading.classList.add('home-heading');
-	heading.innerHTML = 'We get you your pizza <br> You get us our fucking money';
+	heading.innerHTML =
+		'This restaurant might be fake <br> but at least the website is pretty';
 	home.appendChild(heading);
 
 	const img = document.createElement('img');

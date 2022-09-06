@@ -20,5 +20,5 @@
 }
 
 .tab-button.clicked {
-	border-bottom: 2px solid var(--clicked-clr);
+	border-bottom: 2px solid var(--acc2-clr);
 }

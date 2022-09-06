@@ -16,4 +16,5 @@
 
 .header > h1 {
 	font-size: var(--fs-1);
+	font-family: var(--ff-h);
 }

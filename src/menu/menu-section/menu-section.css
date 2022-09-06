@@ -13,4 +13,5 @@
 .section-heading {
 	grid-area: 1 / 1 / 1 /-1;
 	font-size: var(--fs-2);
+	font-family: var(--ff-h);
 }

@@ -6,4 +6,5 @@
 
 .menu {
 	display: grid;
+	gap: 20px;
 }
