@@ -3,6 +3,7 @@ import getImgPath from './images';
 
 export default function MenuItem(item) {
 	const menuItem = document.createElement('div');
+	menuItem.classList.add('menu-item');
 
 	const img = document.createElement('img');
 	img.classList.add('menu-item-img');

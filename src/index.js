@@ -1,3 +1,4 @@
+import 'normalize.css';
 import './base.css';
 import Header from './header/header';
 import Nav from './nav/nav';

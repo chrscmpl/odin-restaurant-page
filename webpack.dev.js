@@ -5,7 +5,7 @@ module.exports = merge(common, {
 	mode: 'development',
 	devtool: 'inline-source-map',
 	output: {
-		assetModuleFilename: 'images/[hash][ext][query]',
+		assetModuleFilename: 'resources/[hash][ext][query]',
 	},
 	module: {
 		rules: [

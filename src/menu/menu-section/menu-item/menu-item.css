@@ -6,6 +6,8 @@
 
 .menu-item {
 	display: grid;
+	background-color: var(--wrapper-clr);
+	padding: 10px;
 }
 
 .menu-item-img {
